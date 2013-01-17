@@ -1,0 +1,417 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+   font-family: "Roman SD", "Times New Roman", Verdana, Tahoma;
+   src: url(include/fuentes/Roman.ttf) format('truetype');
+}
+
+
+
+body{
+margin: 0px;
+padding: 0px;
+background-color: #DDD;
+}
+
+nav{
+width: 100%;
+min-height: 30px;
+padding: 10px 0px;
+background-color: #111;
+border-bottom: 2px solid #000;
+font-family:"Roman SD", "Times New Roman", Verdana, Tahoma;
+text-align: right;
+color: #CCC;
+}
+
+nav p{
+font-size: 14px;
+margin: 5px 90px 0px 0px;
+}
+
+nav a{
+color: #FFF;
+text-decoration:none;
+}
+
+nav a:hover{
+color: #2492FF;
+}
+
+
+#wrap{
+width: 85%;
+min-height: 580px;
+margin: 0px auto 20px auto;
+background-color: #EEE;
+border-color: #111;
+border-width: 0px 1px 1px 1px;
+border-style: solid;
+}
+
+#top{
+width: 100%;
+height: 20%;
+border-bottom: 1px solid #000;
+}
+
+#bottom{
+width: 100%;
+height: 78%;
+}
+
+#menu{
+width: 82%;
+height: 100%;
+float: right;
+border: 1px solid #000;
+}
+
+#left{
+width: 16%;
+height: 100%;
+float: left;
+border: 1px solid #000;
+}
+
+#right{
+width: 82%;
+height: 100%;
+float: right;
+border: 1px solid #000;
+}
+
+#recursos{
+width: 100%;
+height: 8%;
+float: left;
+border: 1px solid #000;
+}
+
+#recursos img{
+width: 24px;
+height: 24px;
+float: left;
+margin: -5px 5px 0px 0px;
+}
+
+#wrap_aldea{
+width: 100%;
+height: 90%;
+float: left;
+border: 1px solid #000;
+}
+
+#aldea{
+width: 72%;
+height: 100%;
+float: left;
+border: 1px solid #000;
+background-color: #EEE;
+}
+
+#info_aldea{
+width: 25%;
+height: 100%;
+float: right;
+border-left: 1px solid #000;
+}
+
+.recurso{
+float: left;
+font-family:"Roman SD", "Times New Roman", Verdana, Tahoma;
+font-size: 14px;
+margin: 10px 40px 0px 10px;
+}
+
+.recurso span{
+font-size: 16px;
+font-weight: bold;
+margin: 0px 0px 0px 10px;
+}
+
+
+.circulo{
+width: 80px;
+height: 80px;
+margin: 12px 30px 0px 20px;
+padding: 3px;
+float: left;
+border-radius: 100px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+-o-border-radius: 100px;
+border: 1px solid #333;
+}
+
+.circulo div{
+width: 78px;
+height: 78px;
+border-radius: 100px;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+-o-border-radius: 100px;
+border: 1px solid #555;
+background-color: #AAA;
+}
+
+#seccion1{
+background-color: #888;
+}
+
+#seccion2{
+background-color: #FFFF8C;
+}
+
+#seccion3{
+background-color: #AAA;
+}
+
+#seccion4{
+background-color: #8A8AF9;
+}
+
+.circulo img{
+width: 78px;
+height: 78px;
+}
+
+
+
+/*Recursos producción*/
+
+#wrapper_recursos{
+width: 90%;
+margin: 50px auto 0px auto;
+}
+
+.wrap_recurso{
+display: inline-block;
+padding: 1% 2%;
+text-align: center;
+}
+
+.nombre_recurso{
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+padding-bottom: 5px;
+}
+
+.img_recurso{
+float: left;
+padding-bottom: 5px;
+}
+
+.img_recurso img{
+width: 120px;
+height: 120px;
+margin: 0px auto;
+}
+
+.nivel_recurso{
+text-align: center;
+}
+
+.wrap_recurso a{
+text-decoration: none;
+}
+
+.nivel_actual{
+width: 25px;
+height: 25px;
+padding: 2px 1px 0px 0px;
+float: left;
+margin-left: 40%;
+margin-top: -2%;
+border: 1px solid #777;
+text-align: center;
+color: #222;
+background-color: #EEE;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+-o-border-radius: 100px;
+box-shadow: 1px 1px 2px #333;
+}
+
+.img_aumentar{
+width: 0; 
+height: 0; 
+border-bottom: 20px solid green; 
+border-left: 10px solid transparent; 
+border-right: 10px solid transparent; 
+float: right;
+}
+
+.img_aumentar:hover{
+width: 0; 
+height: 0; 
+border-bottom: 20px solid #00F200; 
+border-left: 10px solid transparent; 
+border-right: 10px solid transparent; 
+margin: 0px auto;
+}
+
+
+#tiempo{
+width: 90%;
+margin: 20px auto;
+border: 1px solid #666;
+background-color: #FFF;
+padding: 5px 0px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+}
+
+
+#tiempo p{
+margin: 5px 20px;
+padding: 0px;
+font-weight: bold;
+}
+
+#tiempo p span{
+font-weight: 500;
+}
+
+#wrap_produccion{
+float: left;
+margin-left: 5%;
+margin-top: 5%;
+}
+
+#h1_produccion{
+font-family:"Roman SD", "Times New Roman", Verdana, Tahoma;
+float:left;
+margin-bottom: 8%;
+}
+
+.recurso_produccion{
+width: 96%;
+font-family:"Roman SD", "Times New Roman", Verdana, Tahoma;
+font-size: 14px;
+float:left;
+margin: 5% 0;
+}
+
+.recurso_produccion img{
+width: 25px;
+height: 25px;
+float: left;
+margin:-3% 3% 0 3%;
+}
+
+.nombre_produccion{
+float:left;
+margin-right: 5%;
+}
+
+.cantidad_produccion{
+float:left;
+font-weight: bold;
+}
+
+.nombre_edificio{
+font-weight: bold;
+font-size: 20px;
+padding-bottom: 15px;
+}
+
+.edificio_descripcion{
+width: 90%;
+display: inline-block;
+margin-bottom: 20px;
+}
+
+.edificio_costes{
+width: 30%;
+height: 18%;
+margin: 5% 0 0 2%;
+position: absolute;
+display: inline-block;
+}
+
+.edificio_costes p{
+font-weight: bold;
+margin: 0px 0px 10px 0px;
+}
+
+.subir_nivel a{
+text-decoration: none;
+color: #0080FF;
+font-size: 20px;
+}
+
+.subir_nivel a:hover{
+text-decoration: underline;
+}
+
+.recurso_coste{
+width: 20px;
+height: 20px;
+}
+
+.tiempo_coste{
+width: 25px;
+height: 25px;
+margin-top: 1%;
+}
+
+
+
+/*Mercado*/
+
+#seccion_mercado{
+width: 100%;
+float: left;
+margin-bottom: 40px;
+margin-top: -20px;
+}
+
+.seccion_mercado{
+border-right: 1px dashed #555;
+color: #038925;
+font-size: 20px;
+font-weight: bold;
+float: left;
+padding: 0px 10px;
+}
+
+.seccion_mercado:hover{
+color: #04C635;
+}
+
+#mercado1, #mercado2, #mercado3, #mercado4{
+border-top: 1px dotted #333;
+}
+
+#mercado1{
+display: block;
+}
+
+#mercado2{
+display: none;
+padding-top: 20px;
+margin-top: 10px;
+}
+
+#mercado3{
+display: none;
+padding-top: 20px;
+margin-top: 10px;
+}
+
+#a_mercado1, #a_mercado2, #a_mercado3, #a_mercado4{
+cursor: pointer;
+}
+
+form p{
+margin: 0px;
+padding: 0px;
+font-weight: bold;
+}

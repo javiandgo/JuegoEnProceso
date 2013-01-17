@@ -1,0 +1,118 @@
+
+#mapa{
+width: 62%;
+height: 92%;
+float: left;
+margin: 2% 2% 2% 7%;
+}
+
+
+.casilla1, .casilla2{
+width:19%;
+height:19%;
+float: left;
+font-size: 12px;
+color: #111;
+}
+
+#mapa p{
+font-size: 14px;
+float: right;
+margin: 3px;
+}
+
+.casilla1{
+background-color:#95FF95;
+background-image:url("../img/elementos/menu/ciudad.png");
+background-size:65px 65px;
+background-repeat:no-repeat;
+border:1px dashed #0080FF;
+cursor: pointer;
+}
+
+.casilla2{
+background-color:#95FF95;
+border:1px solid #999;
+}
+
+
+
+#tabla_mapa{
+width: 60%;
+margin: 0px auto;
+}
+
+#arriba{
+width: 100%;
+display: inline-block;
+padding: 2px 0px;
+}
+
+#abajo{
+width: 100%;
+display: inline-block;
+padding: 2px 0px;
+}
+
+#centro{
+width: 72%;
+margin: 0px auto;
+padding: 4% 0;
+}
+
+#izquierda{
+width: 40%;
+display: inline-block;
+}
+
+#derecha{
+width: 40%;
+float: right;
+}
+
+#boton_mapa{
+margin-top: 40px;
+}
+
+
+#mapa_up{
+width: 0; 
+height: 0; 
+border-bottom: 25px solid #1AB5FF; 
+border-left: 15px solid transparent; 
+border-right: 15px solid transparent; 
+margin: 0px auto;
+cursor: pointer;
+}
+
+#mapa_left{
+width: 0; 
+height: 0; 
+border-right: 25px solid #1AB5FF; 
+border-top: 15px solid transparent; 
+border-bottom: 15px solid transparent; 
+float: left;
+cursor: pointer;
+
+}
+
+#mapa_right{
+width: 0; 
+height: 0; 
+border-left: 25px solid #1AB5FF; 
+border-top: 15px solid transparent; 
+border-bottom: 15px solid transparent; 
+float: right;
+cursor: pointer;
+
+}
+
+#mapa_bottom{
+width: 0; 
+height: 0; 
+border-top: 25px solid #1AB5FF; 
+border-left: 15px solid transparent; 
+border-right: 15px solid transparent; 
+margin: 0px auto;
+cursor: pointer;
+}
